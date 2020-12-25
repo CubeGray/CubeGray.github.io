@@ -1,8 +1,10 @@
 ---
-title: "프로그래머스_점프와 순간 이동"
+title: "[Programmers]점프와 순간 이동"
 date: 2020-12-26 00:26:28 -0400
-categories:
-- programmers
+draft: false
+description: "[Programmers]점프와 순간 이동"
+tags: programmers
+categories: programmers
 toc : true
 toc_sticky : true
 toc_label : 목차
