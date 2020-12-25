@@ -2,7 +2,7 @@
 title: "프로그래머스_점프와 순간 이동"
 date: 2020-12-26 00:26:28 -0400
 categories: algorithm
-
+- programmers
 toc : true
 toc_sticky : true
 toc_label : 목차
@@ -51,3 +51,6 @@ public class Solution {
 }
 
 ```
+
+## 풀이과정
+이동한 거리 N이 짝수라면 순간이동으로 이동할 수 있기 때문에 temp가 짝수일동안은 계속 1/2로 변경하고 홀수라면 1을 뺀후 1칸의 점프를 통해 1만큼의 건전지 사용량을 추가해준다. 
