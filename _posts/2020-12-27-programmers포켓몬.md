@@ -1,5 +1,5 @@
 ---
-title: "[Programmers]포멧몬"
+title: "[Programmers]포켓몬"
 date: 2020-12-27 00:26:28 -0400
 draft: false
 description: "[Programmers]포켓몬"
