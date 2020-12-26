@@ -1,8 +1,8 @@
 ---
-title: "[Programmers]점프와 순간 이동"
-date: 2020-12-26 00:26:28 -0400
+title: "[Programmers]포멧몬"
+date: 2020-12-27 00:26:28 -0400
 draft: false
-description: "[Programmers]점프와 순간 이동"
+description: "[Programmers]포켓몬"
 categories: [알고리즘]
 toc : true
 toc_sticky : true
