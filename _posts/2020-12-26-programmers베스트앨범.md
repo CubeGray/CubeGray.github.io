@@ -33,9 +33,9 @@ genres와 plays의 길이는 같으며, 이는 1 이상 10,000 이하입니다.
 |-------------------------------------|--------------------------|------------|
 |[classic, pop, classic, classic, pop]|[500, 600, 150, 800, 2500]|[4, 1, 3, 0]|
 
-
+## 소스코드
 <details>
-<summary> ## 소스코드 </summary>
+<summary>소스코드</summary>
 <div markdown="1">
 
 ```java
