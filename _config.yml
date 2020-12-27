@@ -96,7 +96,7 @@ analytics:
 author:
   name             : "김준형"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **special** person."
+  bio              : "I am a **special** person."
   location         : "경기도 용인시"
   email            :
   links:
