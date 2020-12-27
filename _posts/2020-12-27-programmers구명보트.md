@@ -42,26 +42,27 @@ toc_label : 목차
 <div markdown="1">
 
 ```java
+    
 import java.util.*;
-	class Solution {
-		public int solution(int[] people, int limit) {
-			int answer = 0;
-            int left=0;
-            int right = people.length-1;
+class Solution {
+	public int solution(int[] people, int limit) {
+		int answer = 0;
+        int left=0;
+        int right = people.length-1;
             
-			Arrays.sort(people);
-			while(right>=left){
-                if((people[left]+people[right])<=limit){
-                    left++;
-                    right--;
-                }else{
-                    right--;
-                }
-                answer++;
+    	Arrays.sort(people);
+		while(right>=left){
+            if((people[left]+people[right])<=limit){
+                left++;
+                right--;
+            }else{
+                right--;
             }
-			return answer;
-		}
+            answer++;
+        }
+	return answer;
 	}
+}
 ```
 </div>
 </details>
