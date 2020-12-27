@@ -40,7 +40,6 @@ import java.util.*;
 class Solution {
 public int solution(int n, int[][] computers) {
 		int answer = 0;
-		Queue q = new LinkedList();
 		boolean check[] = new boolean[n];
 		
 		for(int i=0;i<computers.length;i++) {
