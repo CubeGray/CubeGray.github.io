@@ -54,7 +54,7 @@ truck_weights의 길이는 1 이상 10,000 이하입니다.
 ```java
 import java.util.*;
 class Solution {
- public static int solution(int bridge_length, int weight, int[] truck_weights) {
+    public static int solution(int bridge_length, int weight, int[] truck_weights) {
 		int answer = 0;
 		int sum=0;
 		Queue<Integer> q = new LinkedList<Integer>();
@@ -76,7 +76,7 @@ class Solution {
 				}
 			}
 		}
-        answer+=bridge_length;
+		answer+=bridge_length;
 		return answer;
 	}
 }
