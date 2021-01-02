@@ -1,6 +1,6 @@
 ---
 title: "[Programmers]소수찾기"
-date: 2020-12-31 00:26:28 -0400
+date: 2021-01-02 00:00:28 -0400
 draft: false
 description: "[Programmers]소수찾기(에라토스테네스의 체)"
 categories: [알고리즘]
