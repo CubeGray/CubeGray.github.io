@@ -83,7 +83,7 @@ public int solution(String skill, String[] skill_trees) {
 </details>
 
 ## 풀이과정
-선행스킬(skill)을 HashSet에 넣어놓고 Skill_trees를 돌면서 HashSet안에 포함되지만 선행스킬의 앞부분부터 수행되지 않은 경우 flag를 false로 반환해준다.
 
+선행스킬(skill)을 HashSet에 넣어놓고 Skill_trees를 돌면서 HashSet안에 포함되지만 선행스킬의 앞부분부터 수행되지 않은 경우 flag를 false로 반환해준다.
 주의할 점은 선행스킬이 아예 섞여있지 않은 스킬의 경우 수행가능한 스킬이다. 예를 들어 선행스킬이 'XYZ'이라면 'ABCD'와 같은 스킬은 수행가능하다.
 
