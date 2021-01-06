@@ -35,6 +35,7 @@ public class Solution {
     public int solution(int n) {
         int ans = 0;
         int temp = n;
+        
         while(temp>1){
             boolean flag = true;
             if(flag && (temp%2==0)){
