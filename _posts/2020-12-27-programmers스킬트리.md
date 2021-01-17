@@ -53,6 +53,7 @@ public int solution(String skill, String[] skill_trees) {
 		for(int i=0;i<skill.length();i++) {
 			set.add(skill.charAt(i));
 		}
+		
 		for(int i=0;i<skill_trees.length;i++) { 
 			boolean flag=true;
 			int index=0;
