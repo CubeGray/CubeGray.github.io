@@ -130,3 +130,4 @@ public class Programmers디스크컨트롤러 {
 </details>
 
 ## 풀이과정
+우선순위 큐 이용
