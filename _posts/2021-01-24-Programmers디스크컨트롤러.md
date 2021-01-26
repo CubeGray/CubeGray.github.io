@@ -70,18 +70,11 @@ jobs의 각 행은 하나의 작업에 대한 [작업이 요청되는 시점, �
 
 ```java
 
-package programmers;
-
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
 public class Programmers디스크컨트롤러 {
-
-	public static void main(String[] args) {
-		
-	}
-
 	public static int solution(int[][] jobs) {
 		Arrays.sort(jobs,new Comparator<int[]>() {
 			@Override
