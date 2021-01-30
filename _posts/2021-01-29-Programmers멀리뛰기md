@@ -1,5 +1,5 @@
 ---
-title: "[Programmers]단속카메라"
+title: "[Programmers]멀리뛰기"
 date: 2021-01-29 00:00:28 -0400
 draft: false
 description: "[Programmers]멀리뛰기"
@@ -65,4 +65,4 @@ class Solution {
 
 ## 풀이과정
 
-진출 시점으로 routes배열을 정렬시킨 후에, 반복문을 통해 이전 차의 진출시점보다 다음차의 진입시점이 큰 경우 카메라의 대수를 한대씩 추가시킨다.
+1칸 또는 2칸만 뛸수 있으므로 dp[i]=dp[i-1]+dp[i-2] 점화식을 이용해 dp로 구현한다.
