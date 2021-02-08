@@ -1,6 +1,6 @@
 ---
 title: "[Programmers]멀리뛰기"
-date: 2021-01-29 00:00:28 -0400
+date: 2021-02-08 00:00:28 -0400
 draft: false
 description: "[Programmers]멀리뛰기"
 categories: [알고리즘]
