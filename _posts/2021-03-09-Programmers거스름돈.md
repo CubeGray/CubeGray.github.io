@@ -40,6 +40,7 @@ n은 100,000 이하의 자연수입니다.
 ```java
 
 import java.util.*;
+
 class Solution {
     public int solution(int n, int[] money) {
         int answer = 0;
