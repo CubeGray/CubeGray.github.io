@@ -32,7 +32,7 @@ public abstract class Creature{
 }		
 
 ```
-
+**extends로 상속받음**
 ``` java
 
 public class Dog extends Creature{
@@ -43,7 +43,7 @@ public class Dog extends Creature{
 
 ```
 ## 인터페이스란?(HAS-A)
-- 기본 설계도이며 추상메소드만을 갖는다. 일변 변수 가질 수 없음.
+- 기본 설계도이며 추상메소드만을 갖는다. 일반 변수, 일반 메소드 가질 수 없음.
 - 다중상속 가능
 - 인스턴스화 할 수 없음.
 - 추상클래스를 상속받는 경우 추상 메소드만 재정의 하는데 이를 통해 확장, 상속을 의미한다는 것을 알 수 잇음. 
@@ -56,7 +56,7 @@ public interface Vehicle{
 }
 
 ```
-
+****
 ```java
 public class Car implements Vehicle{
 	public Car(){}
