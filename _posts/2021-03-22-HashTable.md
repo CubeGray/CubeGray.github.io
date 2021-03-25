@@ -78,7 +78,7 @@ Open Addressing에서 데이터를 삭제하면 삭제된 공간은 Dummy Space�
 
 Java 개발자라면 (Key,Value)로 저장하는 익숙한 자료구조인 HashMap이 있다. 그렇다면 Java에서 HashTable과 HashMap의 차이가 당연히 있을 텐데, 그 차이는  동기화 지원 여부에 있다.
 
-```
+```java
 // 해시테이블의 put
 public synchronized V put(K key, V value) {
     // Make sure the value is not null
