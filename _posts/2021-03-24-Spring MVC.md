@@ -33,7 +33,7 @@ Model, View, Controller를 분리한 디자인 패턴
 #
 ## pom.xml
 모듈들을 가져오는 설정을 담당하는 파일
-``` 
+``` xml
 	<!-- Spring MVC -->
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -45,7 +45,7 @@ Model, View, Controller를 분리한 디자인 패턴
 ```
 ## web.xml (WEB-INF하단에 위치)
 웹서비스의 구동에 필요한 설정을 담당
-``` 
+```xml
 <display-name>step08_webBasic</display-name>
 	<welcome-file-list>
 		<welcome-file>index.html</welcome-file>
@@ -71,7 +71,7 @@ bean을 활용한 DI 설정가능
 redirect로 화면 이동하는 경우 dispatcher servlet이 관여하지 않음.
 forward와 같이 request객체를 공유하여 화면을 이동하는 경우에만 dispatcher servlet이 관리.
 
-```
+```xml
 <!-- controller의 패키지를 알려주고 디스패처가 controller를 찾는다. @Controller를 만나면 그 클래스가 Controller라는 것으로 인식함. -->
 <mvc:annotation-driven/>
 	<mvc:default-servlet-handler/>	
