@@ -30,9 +30,12 @@ URI : http://opentutorials.org:3000/main?id=HTML&page=12 (자원의 위치)
 
 ## HTTP(Hyper Text Transfer Protocol)
 **Server와 Client사이에 이루어지는 요청/응답 통신규약(Application Layer 프로토콜)**
+<br>
 Client : 서버에 자원(HTML)을 요청(Request), GET,POST,DELETE,PUT방식으로 요청함.
 <br>
 Server : 클라이언트의 요청에 대한 응답(Response)을 하면 클라이언트의 web browser에서 HTML자원을 화면에 띄워줌.
+<br>
+<br>
 
 **HTTP Response Format**
 - 1xx : Informational
