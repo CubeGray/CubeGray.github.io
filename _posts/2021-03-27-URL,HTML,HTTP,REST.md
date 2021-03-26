@@ -41,8 +41,8 @@ Server : 클라이언트의 요청에 대한 응답(Response)을 하면 클라�
 - 1xx : Informational
 - 2xx : Successes
 - 3xx : Redirection
-- 4XX : Client Error
-- 5XX : Server Error
+- 4xx : Client Error
+- 5xx : Server Error
 <br><br> 
 
 - HTTP는 간단하다.
