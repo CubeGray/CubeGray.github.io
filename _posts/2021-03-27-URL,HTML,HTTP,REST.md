@@ -10,7 +10,7 @@ toc_label : 목차
 ---
 
 ## URI & URL
-### URI(식별자)** : Uniform Resource Identifier
+### URI(식별자) : Uniform Resource Identifier
 - 인터넷에 있는 자원을 나타내는 유일한 주소.
 - 인터넷 프로토콜에 항상 붙어다니며 인터넷에서 요구되는 기본 조건이다.
 - 하위개념으로 URL과 URN(이름)을 갖고 있다.
@@ -24,9 +24,9 @@ toc_label : 목차
 
 <img src="https://media.vlpt.us/images/jch9537/post/88b0c8ac-5870-4cbc-b613-7dd39f510f31/image.png">
 
-URL : http://opentutorials.org:3000/main
+URL : http://opentutorials.org:3000/main (식별자)
 <br>
-URI : http://opentutorials.org:3000/main?id=HTML&page=12
+URI : http://opentutorials.org:3000/main?id=HTML&page=12 (자원의 위치)
 
 ## HTTP(Hyper Text Transfer Protocol)
 **Server와 Client사이에 이루어지는 요청/응답 통신규약(Application Layer 프로토콜)**
