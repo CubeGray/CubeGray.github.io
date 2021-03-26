@@ -2,8 +2,8 @@
 title: "Spring MVC?"
 date: 2021-03-24 00:00:28 -0400
 draft: false
-description: "[JAVA]Spring MVC"
-categories: [JAVA]
+description: "[Spring]Spring MVC"
+categories: [Spring]
 toc : true
 toc_sticky : true
 toc_label : 목차
