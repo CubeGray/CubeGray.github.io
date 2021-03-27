@@ -2,8 +2,8 @@
 title: "Servlet VS JSP"
 date: 2021-03-25 00:00:28 -0400
 draft: false
-description: "[Web] Servlet VS JSP"
-categories: [Web]
+description: "[WEB] Servlet VS JSP"
+categories: [WEB]
 toc : true
 toc_sticky : true
 toc_label : 목차
