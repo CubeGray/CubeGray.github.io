@@ -16,8 +16,8 @@ toc_label : 목차
 - 공통된 기능이 필요하다면 추상클래스에서 기본 메소드를 작성하여 자식 클래스에서 사용가능할 수 있도록 함.
 - 멤버변수, 기본 메소드를 가진다.
 - 다중상속 불가능
-``` java
 
+``` java
 public abstract class Creature{
 	private int x;
 	private int y;
