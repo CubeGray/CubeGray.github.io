@@ -159,7 +159,7 @@ DispatcherServlet이 Controller에게 요청한뒤 ModelAndView를 이용하여 
 
 4. 컨트롤러에서는  해당 요청을 처리할 Service를 주입(DI)받아 비즈니스로직을 Service에게 위임한다.
 
-5. Service에서는 요청에 필요한 작업 대부분(코딩)을 담당하며  데이터베이스에 접근이 필요하면 DAO를 주입받아 DB처리는 DAO에게 위임한다.
+5. **Service에서는 요청에 필요한 작업 대부분(코딩)을 담당**하며  **데이터베이스에 접근이 필요하면 DAO를 주입받아 DB처리는 DAO에게 위임**한다.
 
 6. DAO는  mybatis(또는 hibernate등) 설정을 이용해서 SQL 쿼리를 날려 DB에 저장되어있는 정보를 받아 서비스에게 다시 돌려준다.
 
