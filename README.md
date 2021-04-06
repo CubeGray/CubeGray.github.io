@@ -1,1 +1,1 @@
-# CubeGray.github.io<<Blog>>
+# CubeGray.github.io
